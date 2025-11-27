@@ -44,20 +44,20 @@ array_2d[1:3,0:1]
 print("array_2d[1:3, 0:2] == selection of bottom left: ", array_2d[1:3, 0:2], "\n")
 print("\nrightmost bottom half\n")
 print("\n array_2d[1:3, 1:3] ", array_2d[1:3, 1:3], "\n")
-#top right of array_2d
-array_2d[0:2, 1:3]
-array_2d[0:2,0:2]
-# try slicing with a 4 d array
+print("top right of array_2d \n")
+print("array_2d \n", array_2d[0:2, 1:3], "\n")
+print("array_2d[0:2, 1:3] \n", array_2d[0:2,0:2], "\n")
+print(" try slicing with a 4 d array\n")
 f4_arrayslicing = np.array(  [ [69, 20, 31, 15 ], [55, 200, 16, 5 ],   [ 12, 19, 66, 45],  [ 77, 99, 86, 46   ] , [ 45, 28, 92, 56] ]  )
-f4_arrayslicing
-#top left selection
-f4_arrayslicing [ 0:5, 0:2 ]
-# top left  2x2
-f4_arrayslicing[0:2, 0:2]
-# selectin= 19 --> 86
-f4_arrayslicing[ 2:4, 1:3]
-# array conditionals
-f4_arrayslicing > 45
+print("f4_arrayslicing \n", f4_arrayslicing, "\n")
+print("top left selection\n")
+print("f4_arrayslicing\n", f4_arrayslicing [ 0:5, 0:2 ], "\n")
+print(" top left  2rowsx2columns\n")
+print("f4_arrayslicing[0:2, 0:2] \n\n", f4_arrayslicing[0:2, 0:2], "\n")
+print("\n",  "selectin= 19 --> 86", "\n")
+print("f4_arrayslicing \n", f4_arrayslicing[ 2:4, 1:3], "\n")
+print("array conditionals \n")
+print("f4_arrayslicing > 45 \n", f4_arrayslicing > 45, "\n")
 f4_arrayslicing [f4_arrayslicing > 45]
-f4_arrayslicing
-f4_arrayslicing[f4_arrayslicing < 16]
+print("f4_arrayslicing \n", f4_arrayslicing, "\n")
+print("f4_arrayslicing[f4_arrayslicing < 16] \n", f4_arrayslicing[f4_arrayslicing < 16], "\n")
