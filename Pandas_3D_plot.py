@@ -26,4 +26,8 @@ ax.zaxis.set_major_formatter('{x:.02f}')
 # Add a color bar which maps values to colors.
 fig.colorbar(surf, shrink=0.5, aspect=5)
 
+#  Have a go at creating a legend
+
+
+
 plt.show()
